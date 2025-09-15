@@ -1,11 +1,18 @@
 # Ignore Python virtual environment
 venv/
 
-# Ignore data folder
-data/
+# Ignore source code folder
+src/
 
-# Ignore specific task folder
-task-02_KMeans_CustomerSegmentation/
+# Ignore data folder and specific files inside
+data/
+data/sample_submission.csv
+data/test.csv
+data/train.csv
+data/data_description.txt
+
+# Ignore task notebooks
+task-01_housePrices_LinearRegression.ipynb
 
 # Ignore Python cache files
 __pycache__/
@@ -20,6 +27,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Ignore IDE/editor files (optional)
+# Ignore IDE/editor files
 .vscode/
 .idea/
+
+# Ignore main script and submission CSV
+main.py
+submission.csv
