@@ -1,0 +1,25 @@
+# Ignore Python virtual environment
+venv/
+
+# Ignore data folder
+data/
+
+# Ignore specific task folder
+task-02_KMeans_CustomerSegmentation/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs
+*.log
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore IDE/editor files (optional)
+.vscode/
+.idea/
