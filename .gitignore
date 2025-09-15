@@ -1,36 +1,32 @@
-# Ignore Python virtual environment
+# Python virtual environment
 venv/
 
-# Ignore source code folder
+# Source code folder
 src/
 
-# Ignore data folder and specific files inside
+# Data folder
 data/
-data/sample_submission.csv
-data/test.csv
-data/train.csv
-data/data_description.txt
 
-# Ignore task notebooks
-task-01_housePrices_LinearRegression.ipynb
+# Task notebooks
+Task-01_HousePrices_LinearRegression.ipynb
 
-# Ignore Python cache files
+# Python cache files
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
 
-# Ignore logs
+# Logs
 *.log
 
-# Ignore system files
+# System files
 .DS_Store
 Thumbs.db
 
-# Ignore IDE/editor files
+# IDE/editor files
 .vscode/
 .idea/
 
-# Ignore main script and submission CSV
+# Scripts and CSVs
 main.py
 submission.csv
